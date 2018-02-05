@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/layouts/">
+	<excludes>
+		<pattern>/static/*</pattern>
+		<pattern>/githook</pattern>
+		<pattern>/mockcall</pattern>
+		<pattern>/api/*</pattern>
+		<pattern>/login</pattern>
+	</excludes>
+	
+	<decorator name="default" page="/login/success">
+		<pattern>/*</pattern>
+	</decorator>
+	 
+</decorators>
+  

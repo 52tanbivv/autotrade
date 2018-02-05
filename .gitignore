@@ -2,11 +2,11 @@
 /logs
 /target
 Thumbs.db
-.DS_Store
+.DS_Store 
 *.log
 .settings/com.genuitec.eclipse.migration.prefs
 .myeclipse/profiler/weixt_ref on Tomcat  7.x.xml
 .myumldata
 .settings/com.genuitec.jboss.ide.eclipse.xdoclet.run.prefs
-*.log.*
+*.log.* 
 *node_modules*

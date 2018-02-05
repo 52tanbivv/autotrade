@@ -1,0 +1,33 @@
+#h2 database settings
+jdbc.driver=com.mysql.jdbc.Driver
+#jdbc.url=jdbc:mysql://localhost:3306/weixin?useUnicode=true&characterEncoding=utf-8
+#jdbc.password=root
+jdbc.url=jdbc:mysql://www.spacetech.tk:3306/weixin0819?useUnicode=true&characterEncoding=utf-8
+jdbc.username=root
+jdbc.password=root
+#jdbc.url=jdbc:mysql://10.129.12.65:3306/weixin092319?useUnicode=true&characterEncoding=utf-8
+#jdbc.username=bakuser
+#jdbc.password=space2013
+
+#log4jdbc driver
+#jdbc.driver=net.sf.log4jdbc.DriverSpy
+#jdbc.url=jdbc:log4jdbc:h2:file:~/.h2/quickstart;AUTO_SERVER=TRUE
+
+#oracle database settings
+#jdbc.driver=oracle.jdbc.driver.OracleDriver
+#jdbc.url=jdbc:oracle:thin:@127.0.0.1:1521:XE
+#jdbc.username=quickstart
+#jdbc.password=quickstart
+
+#mysql database setting
+#jdbc.driver=com.mysql.jdbc.Driver
+#jdbc.url=jdbc:mysql://localhost/quickstart?useUnicode=true&characterEncoding=utf-8
+#jdbc.username=root
+#jdbc.password=
+
+#dbcp settings
+dbcp.maxIdle=15
+dbcp.maxActive=40
+
+mail.usernmae=service@weixiaotong.cn
+mail.password=mailpassword

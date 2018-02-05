@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="UTF-8" xmlns="http://www.w3.org/1999/xhtml" lang="UTF-8">
+<head>
+  <title>登录页</title>
+  <link href="http://weixt-static.oss-cn-qingdao.aliyuncs.com/favicon-d6aa61c7c265900a7d4c45d3ac2b461f.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  <link href="http://weixt-static.oss-cn-qingdao.aliyuncs.com/application-815bc4efac6b42deb84d495309f19f9a.css" media="all" rel="stylesheet">
+  <link href="http://weixt-static.oss-cn-qingdao.aliyuncs.com/print-8597f8b497e02f892aa5a4b25d5a857b.css" media="print" rel="stylesheet">
+</head>
+
+<body class='ui_mars login-page application'>
+<header class='navbar navbar-fixed-top navbar-gitlab'>
+	<div class='navbar-inner'>
+		<div class='container'>
+			<div class='app_logo'>
+				<a class="home" href="/explore">
+					<img alt="Logo white" src="http://weixt-static.oss-cn-qingdao.aliyuncs.com/vue-logo.png" />
+				</a>
+			</div>
+			<h1 class='title'>集成研发测试平台</h1>
+		</div>
+	</div>
+</header>
+<div class='container navless-container'>
+  <div class='content'>
+    <!--<div class='flash-container'>
+      <div class='flash-alert'>You need to sign in before continuing.</div>
+    </div>-->
+    <div class='row prepend-top-20'>
+      <div class='col-sm-5 pull-right'>
+        <div>
+          <div class='login-box'>
+            <div class='login-heading'>
+              <h3>登录</h3>
+            </div>
+            <div class='login-body'>
+              <form accept-charset="UTF-8" id="loginForm" action="login" method="post" class="new_user">
+                <div style="display:none">
+                  <input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="L4rLF5GlRjO9LLNkhVth/jdGgXPFgiRE1q+Dwl2ZzU8=" />
+                </div>
+                <label for="username" class="control-label" style="width: 25%">用户名:</label>
+                <input autofocus="autofocus" class="form-control top" id="username" name="username" placeholder="请输入用户名或邮箱" type="text" value="" />
+                <label for="password" class="control-label" style="width: 20%">密码:</label>
+                <input class="form-control bottom" id="password" name="password" placeholder="请输入密码" type="password" value="" style="border-top: 1px solid #dddddd;border-radius: 5px;" />
+                <div class='remember-me checkbox'>
+                  <label for='rememberMe' class="checkbox">
+                    <input id="rememberMe" name="rememberMe" type="checkbox" value="0" />
+                    <span>记住我</span>
+                  </label>
+                  <!--<div class='pull-right'>
+                    <a href="/users/password/new">Forgot your password?</a>
+                  </div>-->
+                </div>
+                <div>
+                  <input class="btn btn-save" id="submit_btn" name="commit" type="submit" value="登录" />&nbsp;&nbsp;<a class="btn" href="${ctx}/register">注册</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='col-sm-7 brand-holder pull-left'>
+        <h1>量子科技</h1>
+        <h3>自助交易平台</h3>
+        <p>
+          后台API接口管理，集成MOCKJS框架，可以方便的校验接口字段的准确性。
+          API集成测试用例编写，支持自动化运行及检验测试结果。
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
