@@ -10,3 +10,5 @@ Thumbs.db
 .settings/com.genuitec.jboss.ide.eclipse.xdoclet.run.prefs
 *.log.* 
 *node_modules*
+src/main/resources/application.properties
+.classpath
