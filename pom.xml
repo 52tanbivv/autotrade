@@ -42,6 +42,7 @@
 		<jdbc.driver.groupId>mysql</jdbc.driver.groupId>
 		<jdbc.driver.artifactId>mysql-connector-java</jdbc.driver.artifactId>
 		<jdbc.driver.version>5.1.21</jdbc.driver.version>
+    		<com.squareup.retrofit2.version>2.3.0</com.squareup.retrofit2.version>
 		 
 	</properties>
 	
@@ -70,6 +71,26 @@
 
 	<!-- 依赖项定义 -->
 	<dependencies>
+		 <dependency>
+	      <groupId>com.squareup.retrofit2</groupId>
+	      <artifactId>retrofit</artifactId>
+	      <version>${com.squareup.retrofit2.version}</version>
+	    </dependency>
+	    <dependency>
+	      <groupId>com.squareup.retrofit2</groupId>
+	      <artifactId>converter-jackson</artifactId>
+	      <version>${com.squareup.retrofit2.version}</version>
+	    </dependency>
+	    <dependency>
+	      <groupId>commons-codec</groupId>
+	      <artifactId>commons-codec</artifactId>
+	      <version>1.10</version>
+	    </dependency>
+	    <dependency>
+	      <groupId>org.apache.commons</groupId>
+	      <artifactId>commons-lang3</artifactId>
+	      <version>3.6</version>
+	    </dependency>
 		<dependency>
 		  <groupId>com.squareup.okhttp3</groupId>
 		  <artifactId>okhttp</artifactId>
